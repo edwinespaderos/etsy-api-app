@@ -1,4 +1,5 @@
 var ItemView = Backbone.View.extend({
+ 
   initialize: function(){
     $('.jumbotron').append(this.el);
     this.render()
